@@ -5,3 +5,8 @@ The `yesno` command prompts the user with yes/no quetion and exits with status c
 ```
 cmd1 && yesno && cmd2
 ```
+
+One personal use case is:
+```
+brew update &>/dev/null && brew outdated && yesno && brew upgrade
+```
