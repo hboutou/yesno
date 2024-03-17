@@ -10,3 +10,10 @@ One personal use case is:
 ```
 brew update &>/dev/null && brew outdated && yesno && brew upgrade
 ```
+
+
+install
+```
+cargo build --release
+sudo cp target/release/yesno /usr/local/bin
+```
